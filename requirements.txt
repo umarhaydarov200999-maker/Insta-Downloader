@@ -1,9 +1,5 @@
-git+https://github.com/masterolic/pyrogram.git
-bs4
-requests
-python-dotenv
+pyrogram
 tgcrypto
-wget
-git+https://github.com/yt-dlp/yt-dlp/
-youtube-search
-apscheduler
+yt-dlp
+requests
+instaloader
