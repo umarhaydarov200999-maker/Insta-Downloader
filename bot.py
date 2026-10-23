@@ -5,12 +5,12 @@ from os import environ,cpu_count
 from dotenv import load_dotenv
 import multiprocessing 
 load_dotenv("config.env")
-API_ID=int(environ['API_ID'])
+API_ID = int(environ.get("API_ID", "38300237"))
 API_HASH=environ['API_HASH']
 BOT_TOKEN=environ['BOT_TOKEN']
 LOG_GROUP=environ.get('LOG_GROUP',"")
 DUMP_GROUP=environ.get('DUMP_GROUP',"")
-OWNER_ID=int(environ['OWNER_ID'])
+OWNER_ID = int(environ.get("OWNER_ID", "7686546043"))
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 LOGGER = logging.getLogger(__name__)
 if LOG_GROUP:
