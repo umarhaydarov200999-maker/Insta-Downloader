@@ -5,3 +5,4 @@ requests
 python-dotenv
 instaloader
 youtube-search
+yt-dlp
