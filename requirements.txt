@@ -7,4 +7,3 @@ instaloader
 youtube-search
 yt-dlp
 apscheduler
-asyncio
