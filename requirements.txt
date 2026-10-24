@@ -2,3 +2,5 @@ pyrogram
 tgcrypto
 beautifulsoup4
 requests
+python-dotenv
+instaloader
