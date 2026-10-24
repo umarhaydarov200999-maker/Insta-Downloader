@@ -7,3 +7,4 @@ instaloader
 youtube-search
 yt-dlp
 apscheduler
+net
